@@ -12,3 +12,24 @@
     background-color: #6C6C6C!important;
     color: #fff!important;
 }
+.main_blue_t {
+    background-color: #15798c!important;
+    color: #15798c!important;
+}
+.background {
+    background-color: #15798c;
+}
+.no_background {
+    background-image: none;
+}
+.m_right_4em {
+    margin-left: 4em;
+}
+.p_ab_top {
+    top: -23px;
+}
+@media (max-width: 767px) {
+    .m_right_4em {
+        margin-left: .5em;
+    }
+}
