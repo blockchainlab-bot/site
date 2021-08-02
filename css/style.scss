@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+.japanese {
+    // font-family: "Roboto", 'Yu Gothic', "游ゴシック", "ヒラギノ角ゴ Pro W3", sans-serif;
+    font-family: "Roboto", "メイリオ", "ヒラギノ角ゴ Pro W3", sans-serif;
+    // font-family: "Roboto", "ヒラギノ角ゴ Pro W3", 'Hiragino Kaku Gothic ProN', 'HiraKakuProN-W3', sans-serif;
+    // font-family: "Roboto", "MS Pゴシック", sans-serif;
+    // font-family: "Roboto", 'Sawarabi Mincho', sans-serif;
+    // font-family: "Roboto", 'Shippori Mincho', sans-serif;
+}
 .m-top-4 {
     margin-top: 4em;
 }
@@ -17,7 +25,7 @@
     color: #15798c!important;
 }
 .background {
-    background-color: #15798c;
+    // background-color: #15798c;
 }
 .no_background {
     background-image: none;
@@ -28,6 +36,48 @@
 .p_ab_top {
     top: -23px;
 }
+.bg_pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: -1;
+    }
+.Paper_v2 {
+    background-image:
+    repeating-linear-gradient(to bottom,
+        transparent 25px,
+        rgba(0, 0, 0, 0.04) 26px,  rgba(0, 0, 0, 0.04) 26px,
+        transparent 27px,  transparent 51px, 
+        rgba(0, 0, 0, 0.04) 52px,  rgba(0, 0, 0, 0.04) 52px,
+        transparent 53px,  transparent 77px, 
+        rgba(0, 0, 0, 0.04) 78px,  rgba(0, 0, 0, 0.04) 78px,
+        transparent 79px,  transparent 103px, 
+        rgba(0, 0, 0, 0.04) 104px,  rgba(0, 0, 0, 0.04) 104px,
+        transparent 105px,  transparent 129px, 
+        rgba(0, 0, 0, 0.04) 130px,  rgba(0, 0, 0, 0.04) 130px),
+
+    repeating-linear-gradient(to right,
+        transparent 25px,
+        rgba(0, 0, 0, 0.04) 26px,  rgba(0, 0, 0, 0.04) 26px,
+        transparent 27px,  transparent 51px, 
+        rgba(0, 0, 0, 0.04) 52px,  rgba(0, 0, 0, 0.04) 52px,
+        transparent 53px,  transparent 77px, 
+        rgba(0, 0, 0, 0.04) 78px,  rgba(0, 0, 0, 0.04) 78px,
+        transparent 79px,  transparent 103px, 
+        rgba(0, 0, 0, 0.04) 104px,  rgba(0, 0, 0, 0.04) 104px,
+        transparent 105px,  transparent 129px, 
+        rgba(0, 0, 0, 0.04) 130px,  rgba(0, 0, 0, 0.04) 130px);
+}
+.f_size {
+    font-size: 18px;
+}
+.s_size {
+    font-size: 14px;
+}
+
 @media (max-width: 767px) {
     .m_right_4em {
         margin-left: .5em;
