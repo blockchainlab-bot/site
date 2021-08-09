@@ -80,6 +80,12 @@
 .rotate {
     transform: rotate(-90deg);
 }
+.panel.bottom, .side {
+    bottom: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
 
 @-webkit-keyframes animateArrow {
     80%, 100% {
