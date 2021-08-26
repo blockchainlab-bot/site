@@ -68,6 +68,36 @@
   -ms-transform: translateY(-50%);
 }
 
+.bg {
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  display: inline;
+  padding: .3em;
+  padding-top: .5em;
+  line-height: 2.5;
+  background-color: #e5bb09;
+  margin-bottom: 12px;
+}
+
+.bg span {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bg_m {
+  padding-top: 1em;
+}
+
+.m-top-12 {
+  margin-top: 12px !important;
+}
+
+.emphasis05 {
+  text-emphasis: double-circle #000000;
+  -webkit-text-emphasis: double-circle #000000;
+}
+
 @-webkit-keyframes animateArrow {
   80%, 100% {
     -webkit-transform: translateX(0px) rotate(-90deg);
